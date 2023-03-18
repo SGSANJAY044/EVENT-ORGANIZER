@@ -1,4 +1,4 @@
-.button1,.button2 {
+.button1 {
     border-radius: 4px;
     background-color: #92E3A9;
     border: none;
@@ -6,13 +6,13 @@
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    width: 300px;
+    width: 200px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
   }
   
-  .button1 span,.button2 span  {
+  .button1 span  {
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -20,7 +20,7 @@
   }
   
   .button1 span:after {
-    content: "\2192";
+    content: "\2713";
     position: absolute;
     opacity: 0;
     top: 0;
@@ -38,20 +38,4 @@
   }
 
 
-  .button2 span:after {
-    content: "\2190";
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    left: -20px;
-    transition: 0.5s;
-  }
   
-  .button2:hover span {
-    padding-left: 25px;
-  }
-  
-  .button2:hover span:after {
-    opacity: 1;
-    left: 0;
-  }

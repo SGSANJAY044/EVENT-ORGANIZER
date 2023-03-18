@@ -25,13 +25,25 @@
   position: absolute;
   top: 0;
   left: 35px;
-  z-index: 9999;
+  /* z-index: 9999; */
 }
+.poster-container3 {
+    width: 90%;
+    display: flex;
+    
+
+
+    /* z-index: 9999; */
+  }
 
 .poster {
   width: 100%;
   box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
 }
+.poster1{
+    width: 90%;
+    box-shadow: 0 5px 15px 3px rgba(0, 0, 0, 0.6);
+  }
 
 .ticket-container {
   background: #fff;
@@ -42,7 +54,7 @@
   align-items: center;
   border-radius: 5px;
   position: absolute;
-  top: 20px;
+  top: -50px;
   box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
   opacity: 0;
 }
